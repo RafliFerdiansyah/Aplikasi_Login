@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "SIMPAN (Sistem Informasi Pegawai Andalan)"

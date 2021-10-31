@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    android:backgroundTint="@color/colorbackground"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="357dp"
+        android:layout_height="94dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="MENU UTAMA"
+        android:textColor="@color/colorwhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text=""
+        android:textColor="@color/colorwhite"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/buttonprofil"
+        android:layout_width="157dp"
+        android:layout_height="101dp"
+        android:backgroundTint="@color/colorbackground"
+        android:elevation="1dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/profil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil Pegawai"
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text=""
+        android:textColor="@color/colorwhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colortext"
+        android:backgroundTint="@color/colortext"
+        android:text="Info Pegawai : Sehubungan dengan adanya penambahan fitur pada aplikasi SIMPAN, dimohon kepada seluruh pegawai untuk melakukan update data untuk meningkatkan dan optimasi pada aplikasi SIMPAN"
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versi 1.1"
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorwhite" />
+
+
+</LinearLayout>
